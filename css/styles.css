@@ -1,34 +1,55 @@
-html{
+*{
+    box-sizing: border-box;
+}
+header, #content{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+html, body{
     width: 100%;
     height: 100%;
-    padding: 0;
-    margin: 0;
 }
 body{
-    background-color: silver;
-    width: 100%;
-    height: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 header{
     display: flex;
     flex-direction: row;
     height: 15%;
-    background-color: burlywood;
+    background-color: rgb(255, 0, 70);
 }
 #content{
-    background-color: black;
     width: 100%;
     height: 100%;
 }
 nav{
     display: flex;
-    flex-basis: 33%;
-    justify-content: space-between;
+    flex-basis: 40%;
+    justify-content: space-around;
+    padding: 8px;
+    gap: 12px;
 }
 #header-logo{
     display: flex;
-    flex-basis: 67%;
+    flex-basis: 60%;
+    padding: 8px;
     font-size: 32px;
     align-items: center;
     justify-content: center;
+}
+button{
+    all: unset;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 8px;
+    color: white;
+    font-weight: bolder;
+}
+button:hover{
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 5px;
+    border: solid 1px white;
 }
