@@ -1,0 +1,24 @@
+.menupage{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+    gap: 32px;
+    background-color: #000000;
+}
+.menuitem{
+    display: flex;
+    flex-direction: column;
+}
+.iteminfo{
+    display: flex;
+    flex-direction: row;
+}
+.priceandingredients{
+    display: flex;
+    flex-direction: column;
+}
+.titleandimage{
+    
+}

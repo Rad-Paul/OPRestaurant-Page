@@ -34,6 +34,16 @@ export default function loadHomePage(){
         let sampleMenuContainer = document.createElement('div')
         sampleMenuContainer.classList.add('home-menu')
 
+        let menuDescription = document.createElement('p')
+        menuDescription.textContent = 'PLACEHOLDER DESCRIPTION'
+
+        sampleMenuContainer.appendChild(menuDescription)
+
+        let imagesContainer = document.createElement('div')
+        imagesContainer.classList.add('home-images')
+
+        sampleMenuContainer.appendChild(imagesContainer)
+
         homepageContainer.appendChild(sampleMenuContainer)
     }
 }
